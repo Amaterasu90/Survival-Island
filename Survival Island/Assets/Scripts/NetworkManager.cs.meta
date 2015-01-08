@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: b2ed152ffebecd24ca7463f2219fa163
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - playerPrefab: {fileID: 185360, guid: a00a01309d453d343bf1a7eafa51491e, type: 2}
+  - enemyPrefab: {fileID: 185360, guid: a00a01309d453d343bf1a7eafa51491e, type: 2}
+  - spawnPosition: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

@@ -1,0 +1,54 @@
+Initialize engine version: 4.6.1f1 (d1db7a1b5196)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.1]
+    Renderer: NVIDIA GeForce GT 330M (ID=0xa29)
+    Vendor:   NVIDIA
+    VRAM:     972 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Amaterasu\Documents\Survival Island\Survival Island_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Amaterasu\Documents\Survival Island\Survival Island_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Amaterasu\Documents\Survival Island\Survival Island_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Amaterasu\Documents\Survival Island\Survival Island_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Amaterasu\Documents\Survival Island\Survival Island_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Amaterasu\Documents\Survival Island\Survival Island_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Amaterasu\Documents\Survival Island\Survival Island_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\Amaterasu\Documents\Survival Island\Survival Island_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Amaterasu\Documents\Survival Island\Survival Island_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Amaterasu\Documents\Survival Island\Survival Island_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.229 seconds
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: C:\Users\Amaterasu\Documents\Survival Island\Survival Island_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Amaterasu\Documents\Survival Island\Survival Island_Data\Managed\System.dll (this message is harmless)
+WARNING: Shader Unsupported: 'Hidden/TerrainEngine/Details/BillboardWavingDoublePass' - Pass '' shader state not supported
+Starting Server!
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkManager:OnGUI() (at C:\Users\Amaterasu\Documents\Survival Island\Assets\Scripts\NetworkManager.cs:60)
+ 
+(Filename: C Line: 0)
+
+Server initialized and ready
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkManager:OnServerInitialized() (at C:\Users\Amaterasu\Documents\Survival Island\Assets\Scripts\NetworkManager.cs:49)
+UnityEngine.Network:InitializeServer(Int32, Int32, Boolean)
+NetworkManager:StartServer() (at C:\Users\Amaterasu\Documents\Survival Island\Assets\Scripts\NetworkManager.cs:20)
+NetworkManager:OnGUI() (at C:\Users\Amaterasu\Documents\Survival Island\Assets\Scripts\NetworkManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+Registred Server!
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkManager:OnMasterServerEvent(MasterServerEvent) (at C:\Users\Amaterasu\Documents\Survival Island\Assets\Scripts\NetworkManager.cs:81)
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at TriggerZone.OnTriggerEnter (UnityEngine.Collider collider) [0x00084] in C:\Users\Amaterasu\Documents\Survival Island\Assets\Scripts\TriggerZone.cs:67 
+ 
+(Filename: C Line: 0)
+
