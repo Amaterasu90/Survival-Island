@@ -49,11 +49,13 @@
      <Compile Include="Assets\Custom\Scripts\BaseManager.cs" />
      <Compile Include="Assets\Custom\Scripts\CameraController.cs" />
      <Compile Include="Assets\Custom\Scripts\CoconutThrower.cs" />
+     <Compile Include="Assets\Custom\Scripts\CoconutWin.cs" />
      <Compile Include="Assets\Custom\Scripts\Inventory.cs" />
      <Compile Include="Assets\Custom\Scripts\NetworkManager.cs" />
      <Compile Include="Assets\Custom\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Custom\Scripts\PlayerMotor.cs" />
      <Compile Include="Assets\Custom\Scripts\PowerCell.cs" />
+     <Compile Include="Assets\Custom\Scripts\TargetCollision.cs" />
      <Compile Include="Assets\Custom\Scripts\TextHints.cs" />
      <Compile Include="Assets\Custom\Scripts\ThrowTrigger.cs" />
      <Compile Include="Assets\Custom\Scripts\TidyObject.cs" />

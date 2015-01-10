@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class TextHints : MonoBehaviour {
 	public float lifeTime = 3.0f;
 	private Text textMessage;
+	private RawImage crosshair;
 
 	IEnumerator ClearText()
 	{
@@ -17,10 +18,22 @@ public class TextHints : MonoBehaviour {
 		StartCoroutine ("ClearText");
 		Debug.Log ("showhints");
 	}
+
+	void CrosshairOn()
+	{
+		crosshair.enabled = true;
+	}
+
+	void CrosshairOff()
+	{
+		crosshair.enabled = false;
+	}
 	
 	void Start () {
 		Text[] textValue = GetComponentsInChildren<Text>();
 		textMessage = textValue [0];
+		RawImage[] rawImage = GetComponentsInChildren<RawImage> ();
+		crosshair = rawImage [1];
 	}
 	void Update () {
 		

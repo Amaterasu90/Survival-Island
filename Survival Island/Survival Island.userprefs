@@ -1,13 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Custom\Scripts\CameraController.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Custom\Scripts\CoconutWin.cs">
     <Files>
-      <File FileName="Assets\Custom\Scripts\ThrowTrigger.cs" Line="16" Column="31" />
-      <File FileName="Assets\Custom\Scripts\CoconutThrower.cs" Line="10" Column="15" />
-      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" Line="315" Column="37" />
-      <File FileName="Assets\Custom\Scripts\CameraController.cs" Line="8" Column="52" />
-      <File FileName="Assets\Custom\Scripts\PlayerController.cs" Line="63" Column="3" />
-      <File FileName="Assets\Custom\Scripts\NetworkManager.cs" Line="60" Column="3" />
+      <File FileName="Assets\Custom\Scripts\CoconutWin.cs" Line="14" Column="26" />
+      <File FileName="Assets\Custom\Scripts\TargetCollision.cs" Line="15" Column="62" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,16 +11,7 @@
           <Node name="Assembly-CSharp" expanded="True">
             <Node name="Custom" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="CameraController.cs" selected="True" />
-              </Node>
-            </Node>
-          </Node>
-          <Node name="Assembly-UnityScript-firstpass" expanded="True">
-            <Node name="Standard Assets" expanded="True">
-              <Node name="Character Controllers" expanded="True">
-                <Node name="Sources" expanded="True">
-                  <Node name="Scripts" expanded="True" />
-                </Node>
+                <Node name="TargetCollision.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -34,7 +21,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Custom\Scripts\CoconutThrower.cs" line="21" />
+      <Breakpoint file="C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Custom\Scripts\TargetCollision.cs" line="13" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

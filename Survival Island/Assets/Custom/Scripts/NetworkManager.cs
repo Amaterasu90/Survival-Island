@@ -16,6 +16,7 @@ public class NetworkManager : MonoBehaviour {
 	public GameObject enemyPrefab;
 	public Transform spawnPosition;
 	public GameObject baseSurvival;
+	public GameObject range;
 	
 	void StartServer(){
 		Network.InitializeServer (32, 25001,!Network.HavePublicAddress());
@@ -49,7 +50,9 @@ public class NetworkManager : MonoBehaviour {
 	void OnServerInitialized(){
 		Debug.Log ("Server initialized and ready");
 		spawnPlayer (playerPrefab);
+		Network.Instantiate (range, range.transform.position, range.transform.rotation, 0);
 		Network.Instantiate (baseSurvival, baseSurvival.transform.position, Quaternion.identity, 0);
+
 	}
 	
 	void OnConnectedToServer(){

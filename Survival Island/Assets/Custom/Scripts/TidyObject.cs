@@ -2,13 +2,11 @@
 using System.Collections;
 
 public class TidyObject : MonoBehaviour {
-
-	// Use this for initialization
+	public float revolveTime = 3.0f;
 	void Start () {
-	
+		Destroy (gameObject, revolveTime);
 	}
 	
-	// Update is called once per frame
 	void Update () {
 	
 	}
