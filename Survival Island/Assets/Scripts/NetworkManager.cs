@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Linq;
+using System.Collections.Generic;
 
 public class NetworkManager : MonoBehaviour {
 	public float buttonX;
@@ -13,8 +15,7 @@ public class NetworkManager : MonoBehaviour {
 	public GameObject playerPrefab;
 	public GameObject enemyPrefab;
 	public Transform spawnPosition;
-	
-	
+	public GameObject baseSurvival;
 	
 	void StartServer(){
 		Network.InitializeServer (32, 25001,!Network.HavePublicAddress());
@@ -32,13 +33,13 @@ public class NetworkManager : MonoBehaviour {
 		Network.Instantiate (player, spawnPosition.position, Quaternion.identity, 0);
 		SetCameras();
 	}
-
+	
 	void SetCameras()
 	{
 		SetCamera ("MainCamera", false);
 		SetCamera ("camera", true);
 	}
-
+	
 	void SetCamera(string tagName, bool enable)
 	{
 		GameObject camera = GameObject.FindWithTag (tagName);
@@ -48,6 +49,7 @@ public class NetworkManager : MonoBehaviour {
 	void OnServerInitialized(){
 		Debug.Log ("Server initialized and ready");
 		spawnPlayer (playerPrefab);
+		Network.Instantiate (baseSurvival, baseSurvival.transform.position, Quaternion.identity, 0);
 	}
 	
 	void OnConnectedToServer(){

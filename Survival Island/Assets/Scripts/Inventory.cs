@@ -4,21 +4,22 @@ using UnityEngine.UI;
 
 [RequireComponent(typeof(AudioSource))]
 public class Inventory : MonoBehaviour {
-
+	
 	public static int charge = 0;
 	public AudioClip collectSound;
 	public Texture[] hudCharge;
 	public RawImage currentChargeHudGUI;
 	public Texture2D[] meterCharge;
 	private Renderer currentStateMeter;
-
+	
 	void Start () {
 		charge = 0;
-	}
 
+	}
+	
 	void Update () {
 	}
-
+	
 	void CellPickUp()
 	{
 		AudioSource.PlayClipAtPoint (collectSound, transform.position);
@@ -27,7 +28,7 @@ public class Inventory : MonoBehaviour {
 		generatorDisplay.renderer.material.mainTexture = meterCharge [charge];
 		++charge;
 	}
-
+	
 	void HUDon(){
 		if (!currentChargeHudGUI.enabled) {
 			currentChargeHudGUI.enabled = true;

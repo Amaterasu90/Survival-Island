@@ -1,20 +1,28 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class TextHints : MonoBehaviour {
+	public float lifeTime = 3.0f;
+	private Text textMessage;
 
+	IEnumerator ClearText()
+	{
+		yield return new WaitForSeconds (lifeTime);
+		textMessage.text = "";
+	}
 	void ShowHint(string message)
 	{
-		guiText.text = message;
-		if (!guiText.enabled) { 
-			guiText.enabled = true;
-		}
+		textMessage.text = message;
+		StartCoroutine ("ClearText");
+		Debug.Log ("showhints");
 	}
-
-	void Start () {
 	
+	void Start () {
+		Text[] textValue = GetComponentsInChildren<Text>();
+		textMessage = textValue [0];
 	}
 	void Update () {
-	
+		
 	}
 }
