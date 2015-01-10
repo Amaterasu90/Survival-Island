@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class PowerCell : MonoBehaviour {
@@ -13,7 +13,7 @@ public class PowerCell : MonoBehaviour {
 		if(guest.gameObject.tag.Equals("Player"))
 		{
 			guest.gameObject.SendMessage("CellPickUp");
-			Destroy(gameObject);
+			DestroyObject(gameObject);
 		}
 	}
 

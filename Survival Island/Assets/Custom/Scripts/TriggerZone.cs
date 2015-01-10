@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
 
@@ -55,7 +55,7 @@ public class TriggerZone : MonoBehaviour {
 			if (Inventory.charge == energyDebt) {
 				DoorOpening ();
 				if (GameObject.FindWithTag ("powerGUI")) {
-					Destroy (GameObject.FindWithTag ("powerGUI"));
+					DestroyObject (GameObject.FindWithTag ("powerGUI"));
 				}
 			}
 			else if (Inventory.charge > 0 && Inventory.charge < 4) {

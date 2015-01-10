@@ -16,7 +16,7 @@ Platform assembly: C:\Users\Amaterasu\Documents\Survival-Island\Survival Island_
 Loading C:\Users\Amaterasu\Documents\Survival-Island\Survival Island_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
 Platform assembly: C:\Users\Amaterasu\Documents\Survival-Island\Survival Island_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading C:\Users\Amaterasu\Documents\Survival-Island\Survival Island_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.240 seconds
+- Completed reload, in  0.215 seconds
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
@@ -26,246 +26,74 @@ WARNING: Shader Unsupported: 'Hidden/TerrainEngine/Details/BillboardWavingDouble
 Starting Server!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-NetworkManager:OnGUI() (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\NetworkManager.cs:62)
+NetworkManager:OnGUI() (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Custom\Scripts\NetworkManager.cs:75)
  
 (Filename: C Line: 0)
 
 Server initialized and ready
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-NetworkManager:OnServerInitialized() (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\NetworkManager.cs:50)
+NetworkManager:OnServerInitialized() (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Custom\Scripts\NetworkManager.cs:50)
 UnityEngine.Network:InitializeServer(Int32, Int32, Boolean)
-NetworkManager:StartServer() (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\NetworkManager.cs:21)
-NetworkManager:OnGUI() (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\NetworkManager.cs:63)
+NetworkManager:StartServer() (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Custom\Scripts\NetworkManager.cs:21)
+NetworkManager:OnGUI() (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Custom\Scripts\NetworkManager.cs:76)
  
 (Filename: C Line: 0)
 
 Registred Server!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-NetworkManager:OnMasterServerEvent(MasterServerEvent) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\NetworkManager.cs:83)
+NetworkManager:OnMasterServerEvent(MasterServerEvent) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Custom\Scripts\NetworkManager.cs:96)
  
 (Filename: C Line: 0)
 
 Registred Server!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-NetworkManager:OnMasterServerEvent(MasterServerEvent) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\NetworkManager.cs:83)
+NetworkManager:OnMasterServerEvent(MasterServerEvent) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Custom\Scripts\NetworkManager.cs:96)
  
 (Filename: C Line: 0)
 
-showhints
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-TextHints:ShowHint(String) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\TextHints.cs:18)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.GameObject:SendMessage(String, Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineGameObject.cs:502)
-BaseManager:Closed() (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\BaseManager.cs:10)
-UnityEngine.Component:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.Component:SendMessage(String) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineComponent.cs:380)
-TriggerZone:OnTriggerEnter(Collider) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\TriggerZone.cs:68)
- 
+View ID AllocatedID: 0 not found during lookup. Strange behaviour may occur
+UnityEngine.Network:INTERNAL_CALL_Destroy(NetworkViewID&)
+UnityEngine.Network:Destroy(NetworkViewID) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:635)
+UnityEngine.Network:Destroy(GameObject) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:646)
+NetworkManager:OnPlayerDisconnected() (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Custom\Scripts\NetworkManager.cs:69)
+
+[C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp line 1681] 
 (Filename: C Line: 0)
 
-showhints
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-TextHints:ShowHint(String) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\TextHints.cs:18)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.GameObject:SendMessage(String, Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineGameObject.cs:502)
-BaseManager:Closed() (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\BaseManager.cs:10)
-UnityEngine.Component:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.Component:SendMessage(String) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineComponent.cs:380)
-TriggerZone:OnTriggerEnter(Collider) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\TriggerZone.cs:68)
- 
-(Filename: C Line: 0)
+Couldn't destroy object because the associate network view was not found
+UnityEngine.Network:INTERNAL_CALL_Destroy(NetworkViewID&)
+UnityEngine.Network:Destroy(NetworkViewID) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:635)
+UnityEngine.Network:Destroy(GameObject) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:646)
+NetworkManager:OnPlayerDisconnected() (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Custom\Scripts\NetworkManager.cs:69)
 
-showhints
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-TextHints:ShowHint(String) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\TextHints.cs:18)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.GameObject:SendMessage(String, Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineGameObject.cs:502)
-BaseManager:Closed() (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\BaseManager.cs:10)
-UnityEngine.Component:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.Component:SendMessage(String) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineComponent.cs:380)
-TriggerZone:OnTriggerEnter(Collider) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\TriggerZone.cs:68)
- 
-(Filename: C Line: 0)
-
-showhints
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-TextHints:ShowHint(String) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\TextHints.cs:18)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.GameObject:SendMessage(String, Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineGameObject.cs:502)
-BaseManager:MorePower() (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\BaseManager.cs:15)
-UnityEngine.Component:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.Component:SendMessage(String) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineComponent.cs:380)
-TriggerZone:OnTriggerEnter(Collider) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\TriggerZone.cs:63)
- 
-(Filename: C Line: 0)
-
-showhints
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-TextHints:ShowHint(String) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\TextHints.cs:18)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.GameObject:SendMessage(String, Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineGameObject.cs:502)
-BaseManager:MorePower() (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\BaseManager.cs:15)
-UnityEngine.Component:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.Component:SendMessage(String) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineComponent.cs:380)
-TriggerZone:OnTriggerEnter(Collider) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\TriggerZone.cs:63)
- 
-(Filename: C Line: 0)
-
-showhints
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-TextHints:ShowHint(String) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\TextHints.cs:18)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.GameObject:SendMessage(String, Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineGameObject.cs:502)
-BaseManager:MorePower() (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\BaseManager.cs:15)
-UnityEngine.Component:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.Component:SendMessage(String) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineComponent.cs:380)
-TriggerZone:OnTriggerEnter(Collider) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\TriggerZone.cs:63)
- 
-(Filename: C Line: 0)
-
-showhints
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-TextHints:ShowHint(String) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\TextHints.cs:18)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.GameObject:SendMessage(String, Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineGameObject.cs:502)
-BaseManager:MorePower() (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\BaseManager.cs:15)
-UnityEngine.Component:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.Component:SendMessage(String) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineComponent.cs:380)
-TriggerZone:OnTriggerEnter(Collider) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\TriggerZone.cs:63)
- 
-(Filename: C Line: 0)
-
-showhints
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-TextHints:ShowHint(String) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\TextHints.cs:18)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.GameObject:SendMessage(String, Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineGameObject.cs:502)
-BaseManager:MorePower() (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\BaseManager.cs:15)
-UnityEngine.Component:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.Component:SendMessage(String) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineComponent.cs:380)
-TriggerZone:OnTriggerEnter(Collider) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\TriggerZone.cs:63)
- 
-(Filename: C Line: 0)
-
-showhints
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-TextHints:ShowHint(String) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\TextHints.cs:18)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.GameObject:SendMessage(String, Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineGameObject.cs:502)
-BaseManager:MorePower() (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\BaseManager.cs:15)
-UnityEngine.Component:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.Component:SendMessage(String) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineComponent.cs:380)
-TriggerZone:OnTriggerEnter(Collider) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\TriggerZone.cs:63)
- 
-(Filename: C Line: 0)
-
-showhints
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-TextHints:ShowHint(String) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\TextHints.cs:18)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.GameObject:SendMessage(String, Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineGameObject.cs:502)
-BaseManager:MorePower() (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\BaseManager.cs:15)
-UnityEngine.Component:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.Component:SendMessage(String) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineComponent.cs:380)
-TriggerZone:OnTriggerEnter(Collider) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\TriggerZone.cs:63)
- 
-(Filename: C Line: 0)
-
-showhints
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-TextHints:ShowHint(String) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\TextHints.cs:18)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.GameObject:SendMessage(String, Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineGameObject.cs:502)
-BaseManager:MorePower() (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\BaseManager.cs:15)
-UnityEngine.Component:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.Component:SendMessage(String) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineComponent.cs:380)
-TriggerZone:OnTriggerEnter(Collider) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\TriggerZone.cs:63)
- 
-(Filename: C Line: 0)
-
-showhints
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-TextHints:ShowHint(String) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\TextHints.cs:18)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.GameObject:SendMessage(String, Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineGameObject.cs:502)
-BaseManager:MorePower() (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\BaseManager.cs:15)
-UnityEngine.Component:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.Component:SendMessage(String) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineComponent.cs:380)
-TriggerZone:OnTriggerEnter(Collider) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\TriggerZone.cs:63)
- 
-(Filename: C Line: 0)
-
-showhints
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-TextHints:ShowHint(String) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\TextHints.cs:18)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.GameObject:SendMessage(String, Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineGameObject.cs:502)
-BaseManager:MorePower() (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\BaseManager.cs:15)
-UnityEngine.Component:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.Component:SendMessage(String) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineComponent.cs:380)
-TriggerZone:OnTriggerEnter(Collider) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\TriggerZone.cs:63)
- 
-(Filename: C Line: 0)
-
-showhints
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-TextHints:ShowHint(String) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\TextHints.cs:18)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.GameObject:SendMessage(String, Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineGameObject.cs:502)
-BaseManager:MorePower() (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\BaseManager.cs:15)
-UnityEngine.Component:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.Component:SendMessage(String) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineComponent.cs:380)
-TriggerZone:OnTriggerEnter(Collider) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\TriggerZone.cs:63)
- 
-(Filename: C Line: 0)
-
-showhints
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-TextHints:ShowHint(String) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\TextHints.cs:18)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.GameObject:SendMessage(String, Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineGameObject.cs:502)
-BaseManager:MorePower() (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\BaseManager.cs:15)
-UnityEngine.Component:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.Component:SendMessage(String) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineComponent.cs:380)
-TriggerZone:OnTriggerEnter(Collider) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\TriggerZone.cs:63)
- 
-(Filename: C Line: 0)
-
-showhints
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-TextHints:ShowHint(String) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\TextHints.cs:18)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.GameObject:SendMessage(String, Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineGameObject.cs:502)
-BaseManager:MorePower() (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\BaseManager.cs:15)
-UnityEngine.Component:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.Component:SendMessage(String) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineComponent.cs:380)
-TriggerZone:OnTriggerEnter(Collider) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\TriggerZone.cs:63)
- 
+[C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp line 1389] 
 (Filename: C Line: 0)
 
 Registred Server!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-NetworkManager:OnMasterServerEvent(MasterServerEvent) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Scripts\NetworkManager.cs:83)
+NetworkManager:OnMasterServerEvent(MasterServerEvent) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Custom\Scripts\NetworkManager.cs:96)
  
+(Filename: C Line: 0)
+
+View ID AllocatedID: 0 not found during lookup. Strange behaviour may occur
+UnityEngine.Network:INTERNAL_CALL_Destroy(NetworkViewID&)
+UnityEngine.Network:Destroy(NetworkViewID) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:635)
+UnityEngine.Network:Destroy(GameObject) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:646)
+NetworkManager:OnDisconnectedFromServer() (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Custom\Scripts\NetworkManager.cs:63)
+
+[C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp line 1681] 
+(Filename: C Line: 0)
+
+Couldn't destroy object because the associate network view was not found
+UnityEngine.Network:INTERNAL_CALL_Destroy(NetworkViewID&)
+UnityEngine.Network:Destroy(NetworkViewID) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:635)
+UnityEngine.Network:Destroy(GameObject) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:646)
+NetworkManager:OnDisconnectedFromServer() (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Custom\Scripts\NetworkManager.cs:63)
+
+[C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp line 1389] 
 (Filename: C Line: 0)
 

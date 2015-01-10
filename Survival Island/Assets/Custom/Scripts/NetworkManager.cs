@@ -55,6 +55,18 @@ public class NetworkManager : MonoBehaviour {
 	void OnConnectedToServer(){
 		spawnPlayer (enemyPrefab);
 	}
+
+	void OnDisconnectedFromServer ()
+	{
+		Network.RemoveRPCsInGroup(0);
+		Network.Destroy(playerPrefab);
+	}
+
+	void OnPlayerDisconnected()
+	{
+		Network.RemoveRPCsInGroup(0);
+		Network.Destroy(enemyPrefab);
+	}
 	
 	void OnGUI(){
 		if(!Network.isClient && !Network.isServer){

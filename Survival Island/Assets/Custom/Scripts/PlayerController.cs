@@ -56,7 +56,7 @@ public class PlayerController : MonoBehaviour {
 	{
 		moveDirection = rotateY * moveDirection;
 		transform.rotation = rotateY;
-		rotateY.eulerAngles += (new Vector3 (0, Input.GetAxis ("Rotation Y"), 0)) * rotationSpeed * Time.deltaTime;
+		rotateY.eulerAngles += (new Vector3 (-Input.GetAxis ("Mouse Y"), Input.GetAxis ("Mouse X"), 0)) * rotationSpeed * Time.deltaTime;
 	}
 	
 	void Move()
