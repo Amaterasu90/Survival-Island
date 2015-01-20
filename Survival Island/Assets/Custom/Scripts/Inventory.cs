@@ -19,7 +19,8 @@ public class Inventory : MonoBehaviour {
 	
 	void Update () {
 	}
-	
+
+	[RPC]
 	void CellPickUp()
 	{
 		AudioSource.PlayClipAtPoint (collectSound, transform.position);

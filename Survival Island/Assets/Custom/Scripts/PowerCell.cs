@@ -12,8 +12,8 @@ public class PowerCell : MonoBehaviour {
 	{
 		if(guest.gameObject.tag.Equals("Player"))
 		{
-			guest.gameObject.SendMessage("CellPickUp");
-			DestroyObject(gameObject);
+			guest.networkView.RPC("CellPickUp",RPCMode.All,null);
+			Network.Destroy(gameObject);
 		}
 	}
 

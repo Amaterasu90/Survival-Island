@@ -1,9 +1,14 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Custom\Scripts\CoconutWin.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Custom\Scripts\PowerCell.cs">
     <Files>
-      <File FileName="Assets\Custom\Scripts\CoconutWin.cs" Line="14" Column="26" />
-      <File FileName="Assets\Custom\Scripts\TargetCollision.cs" Line="15" Column="62" />
+      <File FileName="Assets\Custom\Scripts\CoconutThrower.cs" Line="19" Column="4" />
+      <File FileName="Assets\Custom\Scripts\CoconutWin.cs" Line="1" Column="1" />
+      <File FileName="Assets\Custom\Scripts\TargetCollision.cs" Line="1" Column="1" />
+      <File FileName="Assets\Custom\Scripts\Inventory.cs" Line="25" Column="3" />
+      <File FileName="Assets\Custom\Scripts\NetworkManager.cs" Line="57" Column="4" />
+      <File FileName="Assets\Chat.cs" Line="14" Column="3" />
+      <File FileName="Assets\Custom\Scripts\PowerCell.cs" Line="16" Column="32" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,7 +16,7 @@
           <Node name="Assembly-CSharp" expanded="True">
             <Node name="Custom" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="TargetCollision.cs" selected="True" />
+                <Node name="PowerCell.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -22,6 +27,7 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Custom\Scripts\TargetCollision.cs" line="13" />
+      <Breakpoint file="C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Custom\Scripts\Inventory.cs" line="26" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

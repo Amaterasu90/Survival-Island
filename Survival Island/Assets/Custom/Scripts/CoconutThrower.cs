@@ -14,13 +14,10 @@ public class CoconutThrower : MonoBehaviour {
 	}
 
 	void Update () {
-		if(networkView.isMine)
-		{
-			if (Input.GetButtonDown ("Fire1")&&canThrow) {
-				PlayOne(throwSound);
-				NetworkViewID missleViewId = Network.AllocateViewID();
-				networkView.RPC("Create",RPCMode.All,null);
-			}
+		if (Input.GetButtonDown ("Fire1")&&canThrow) {
+			PlayOne(throwSound);
+			NetworkViewID missleViewId = Network.AllocateViewID();
+			networkView.RPC("Create",RPCMode.All,null);
 		}
 	}
 
@@ -31,8 +28,8 @@ public class CoconutThrower : MonoBehaviour {
 	[RPC]
 	void Create()
 	{
-		if (transform.parent.parent.networkView.isMine) {
-
+		if(networkView.isMine)
+		{
 			Rigidbody newCoconut = Network.Instantiate (coconutPrefab, transform.position, transform.rotation, 0) as Rigidbody;
 			newCoconut.name = "coconut";
 			newCoconut.velocity = transform.forward * throwSpeed;

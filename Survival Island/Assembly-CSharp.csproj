@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Chat.cs" />
      <Compile Include="Assets\Custom\Scripts\BaseManager.cs" />
      <Compile Include="Assets\Custom\Scripts\CameraController.cs" />
      <Compile Include="Assets\Custom\Scripts\CoconutThrower.cs" />

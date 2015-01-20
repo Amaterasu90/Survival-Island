@@ -16,41 +16,82 @@ Platform assembly: C:\Users\Amaterasu\Documents\Survival-Island\Survival Island_
 Loading C:\Users\Amaterasu\Documents\Survival-Island\Survival Island_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
 Platform assembly: C:\Users\Amaterasu\Documents\Survival-Island\Survival Island_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading C:\Users\Amaterasu\Documents\Survival-Island\Survival Island_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.238 seconds
+- Completed reload, in  0.232 seconds
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 Platform assembly: C:\Users\Amaterasu\Documents\Survival-Island\Survival Island_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Amaterasu\Documents\Survival-Island\Survival Island_Data\Managed\System.dll (this message is harmless)
 WARNING: Shader Unsupported: 'Hidden/TerrainEngine/Details/BillboardWavingDoublePass' - Pass '' shader state not supported
-Starting Server!
+Refreshing
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-NetworkManager:OnGUI() (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Custom\Scripts\NetworkManager.cs:77)
+NetworkManager:OnGUI() (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Custom\Scripts\NetworkManager.cs:85)
  
 (Filename: C Line: 0)
 
-Server initialized and ready
+1
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-NetworkManager:OnServerInitialized() (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Custom\Scripts\NetworkManager.cs:51)
-UnityEngine.Network:InitializeServer(Int32, Int32, Boolean)
-NetworkManager:StartServer() (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Custom\Scripts\NetworkManager.cs:22)
-NetworkManager:OnGUI() (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Custom\Scripts\NetworkManager.cs:78)
+NetworkManager:Update() (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Custom\Scripts\NetworkManager.cs:118)
  
 (Filename: C Line: 0)
 
-Registred Server!
+Refreshing
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-NetworkManager:OnMasterServerEvent(MasterServerEvent) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Custom\Scripts\NetworkManager.cs:98)
+NetworkManager:OnGUI() (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Custom\Scripts\NetworkManager.cs:85)
  
 (Filename: C Line: 0)
 
-Registred Server!
+1
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-NetworkManager:OnMasterServerEvent(MasterServerEvent) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Custom\Scripts\NetworkManager.cs:98)
+NetworkManager:Update() (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Custom\Scripts\NetworkManager.cs:118)
+ 
+(Filename: C Line: 0)
+
+ConnectSurvival Island
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkManager:OnGUI() (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Custom\Scripts\NetworkManager.cs:93)
+ 
+(Filename: C Line: 0)
+
+showhints
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+TextHints:ShowHint(String) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Custom\Scripts\TextHints.cs:19)
+UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
+UnityEngine.GameObject:SendMessage(String, Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineGameObject.cs:502)
+ThrowTrigger:OnTriggerEnter(Collider) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Custom\Scripts\ThrowTrigger.cs:12)
+ 
+(Filename: C Line: 0)
+
+showhints
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+TextHints:ShowHint(String) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Custom\Scripts\TextHints.cs:19)
+UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
+UnityEngine.GameObject:SendMessage(String, Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineGameObject.cs:502)
+ThrowTrigger:OnTriggerEnter(Collider) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Custom\Scripts\ThrowTrigger.cs:12)
+ 
+(Filename: C Line: 0)
+
+showhints
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+TextHints:ShowHint(String) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Custom\Scripts\TextHints.cs:19)
+UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
+UnityEngine.GameObject:SendMessage(String, Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineGameObject.cs:502)
+ThrowTrigger:OnTriggerEnter(Collider) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Custom\Scripts\ThrowTrigger.cs:12)
+ 
+(Filename: C Line: 0)
+
+ArgumentException: The prefab you want to instantiate is null.
+  at UnityEngine.Object.CheckNullArgument (System.Object arg, System.String message) [0x0000d] in C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineObject.cs:105 
+  at UnityEngine.Object.Instantiate (UnityEngine.Object original, Vector3 position, Quaternion rotation) [0x00000] in C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineObject.cs:83 
+  at CoconutWin.Update () [0x0005c] in C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Custom\Scripts\CoconutWin.cs:20 
  
 (Filename: C Line: 0)
 
@@ -94,21 +135,20 @@ ThrowTrigger:OnTriggerEnter(Collider) (at C:\Users\Amaterasu\Documents\Survival-
  
 (Filename: C Line: 0)
 
-showhints
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-TextHints:ShowHint(String) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Custom\Scripts\TextHints.cs:19)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.GameObject:SendMessage(String, Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineGameObject.cs:502)
-ThrowTrigger:OnTriggerEnter(Collider) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Custom\Scripts\ThrowTrigger.cs:12)
- 
+Failed to send remove RPCs command to network
+UnityEngine.Network:INTERNAL_CALL_Internal_RemoveRPCs(NetworkPlayer, NetworkViewID&, UInt32)
+UnityEngine.Network:Internal_RemoveRPCs(NetworkPlayer, NetworkViewID, UInt32) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:658)
+UnityEngine.Network:RemoveRPCsInGroup(Int32) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:667)
+NetworkManager:OnDisconnectedFromServer() (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Custom\Scripts\NetworkManager.cs:68)
+
+[C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp line 2463] 
 (Filename: C Line: 0)
 
 View ID AllocatedID: 0 not found during lookup. Strange behaviour may occur
 UnityEngine.Network:INTERNAL_CALL_Destroy(NetworkViewID&)
 UnityEngine.Network:Destroy(NetworkViewID) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:635)
 UnityEngine.Network:Destroy(GameObject) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:646)
-NetworkManager:OnPlayerDisconnected() (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Custom\Scripts\NetworkManager.cs:71)
+NetworkManager:OnDisconnectedFromServer() (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Custom\Scripts\NetworkManager.cs:69)
 
 [C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp line 1681] 
 (Filename: C Line: 0)
@@ -117,32 +157,7 @@ Couldn't destroy object because the associate network view was not found
 UnityEngine.Network:INTERNAL_CALL_Destroy(NetworkViewID&)
 UnityEngine.Network:Destroy(NetworkViewID) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:635)
 UnityEngine.Network:Destroy(GameObject) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:646)
-NetworkManager:OnPlayerDisconnected() (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Custom\Scripts\NetworkManager.cs:71)
-
-[C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp line 1389] 
-(Filename: C Line: 0)
-
-Registred Server!
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-NetworkManager:OnMasterServerEvent(MasterServerEvent) (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Custom\Scripts\NetworkManager.cs:98)
- 
-(Filename: C Line: 0)
-
-View ID AllocatedID: 0 not found during lookup. Strange behaviour may occur
-UnityEngine.Network:INTERNAL_CALL_Destroy(NetworkViewID&)
-UnityEngine.Network:Destroy(NetworkViewID) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:635)
-UnityEngine.Network:Destroy(GameObject) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:646)
-NetworkManager:OnDisconnectedFromServer() (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Custom\Scripts\NetworkManager.cs:65)
-
-[C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp line 1681] 
-(Filename: C Line: 0)
-
-Couldn't destroy object because the associate network view was not found
-UnityEngine.Network:INTERNAL_CALL_Destroy(NetworkViewID&)
-UnityEngine.Network:Destroy(NetworkViewID) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:635)
-UnityEngine.Network:Destroy(GameObject) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\Networking.cs:646)
-NetworkManager:OnDisconnectedFromServer() (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Custom\Scripts\NetworkManager.cs:65)
+NetworkManager:OnDisconnectedFromServer() (at C:\Users\Amaterasu\Documents\Survival-Island\Survival Island\Assets\Custom\Scripts\NetworkManager.cs:69)
 
 [C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp line 1389] 
 (Filename: C Line: 0)
